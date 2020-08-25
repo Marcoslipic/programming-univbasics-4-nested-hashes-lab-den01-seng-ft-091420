@@ -90,7 +90,7 @@ def adding_matz
 #   :languages => ["LISP", "C"]
 # }}
 
-programmer_hash = programmer_hash.merge(matz_hash) {|key, old, new | 
+programmer_hash = programmer_hash.merge(matz_hash) {|key, old, new | old}
 
 end
 
